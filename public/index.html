@@ -4,22 +4,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ZOOTOPIA</title>
-  <meta name="description" content="活出你的信仰態度!重新審視生活的喧囂，傾聽內心真實的聲音，展現你的CAMEGO態度！">
+  <title>ZOOTOPIA，活出你的信仰態度!</title>
+  <meta name="description" content="重新審視生活的喧囂，傾聽內心真實的聲音，展現你的CAMEGO態度！">
   <meta name="keywords" content="CAMEGO,ZOOTOPIA,信仰">
+
+  <meta property="og:title" content="ZOOTOPIA" />
+  <meta property="og:image" content="./image/ZOOTOPIA_cover.jpg" />
+  <meta property="og:description" content="活出你的信仰態度!重新審視生活的喧囂，傾聽內心真實的聲音，展現你的CAMEGO態度！" />
+
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="icon" href="/favicon.ico">
 </head>
 
-<body>
-
-  <p>
-    ZOOTOPIA!<br>
-    活出你的信仰態度!<br><br>
+<body class="flex-center">
+  <!-- page1 -->
+  <div class="logo animate__animated animate__swing max-width-400"></div>
+  <h2 class="sub-title animate__animated animate__bounceInLeft animate__slow">活出你的信仰態度!</h2>
+  <p class="description animate__animated animate__fadeIn animate__delay-2s animate__slower">
     重新審視生活的喧囂，<br>
     傾聽內心真實的聲音，<br>
     展現你的CAMEGO態度！
   </p>
-  <input id="username" name="username" type="text" class="form-control">
-  <button id="btn" class="btn btn-primary">Submit</button>
+  <div class="dialog animate__animated animate__fadeIn animate__delay-2s animate__slower max-width-400">
+
+    <input id="username" name="username" type="text" class="form-control input-getticket" placeholder="請輸入您的名字">
+    <button id="btn" class="btn btn-primary btn-getticket"></button>
+  </div>
+
+  <!-- page2 -->
+  <!-- <div class="ticket-page flex-center">
+    <img class="ticket" src="./../public/image/ticket/1.png" alt="">
+    <a class="btn btn-primary btn-download" href="./../public/image/ticket/1.png" download="./../public/image/ticket/1.png">下載票卡</a>
+  </div> -->
+
 
 
   <script src="./js/index.js"></script>
