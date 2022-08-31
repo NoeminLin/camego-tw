@@ -42,12 +42,6 @@ btn.addEventListener('click', function getTicket() {
         console.log('D', ticket)
     }
 
-    //     body.innerHTML = `
-    //     <div class="ticket-page flex-center max-width-400">
-    //     <img class="ticket animate__animated animate__rotateInDownLeft" src="https://storage.googleapis.com/camego-tw.appspot.com/zootopia/ticket/${ticket.id}.png" alt="">
-    //     <a class="btn btn-primary btn-download" href="https://storage.googleapis.com/camego-tw.appspot.com/zootopia/ticket/${ticket.id}.png" download="https://storage.googleapis.com/camego-tw.appspot.com/zootopia/ticket/${ticket.id}.png">下載票卡</a>
-    //   </div>`
-
     body.innerHTML = `
     <div class="ticket-page flex-center max-width-400">
     <img class="ticket animate__animated animate__rotateInDownLeft" src="./../image/ticket/${ticket.id}.png" alt="">
